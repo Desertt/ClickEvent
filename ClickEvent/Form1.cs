@@ -16,5 +16,12 @@ namespace ClickEvent
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)  //Basla
+        {
+            MessageBox.Show("Hello !"); //Hedefe Koy
+
+            //Bitir
+        }
     }
 }
